@@ -6,6 +6,7 @@ spring:
 sever:
   port: 8201
 spring:
+  profiles: dev
   application:
     name: springcloud-provider-dept
 
@@ -18,6 +19,7 @@ eureka:
 sever:
   port: 8202
 spring:
+  profiles: test
   application:
     name: springcloud-provider-dept
 
